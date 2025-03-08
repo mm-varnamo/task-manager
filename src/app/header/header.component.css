@@ -1,0 +1,14 @@
+header {
+  color: #ffffff;
+  padding: 2rem;
+  background-color: #800080;
+  border-radius: 5px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
