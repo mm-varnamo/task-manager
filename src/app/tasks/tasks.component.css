@@ -12,9 +12,10 @@
   padding: 1rem;
   flex-direction: column;
   height: 100%;
-  min-height: 43rem;
+  max-height: 59.5vh;
   margin-top: 5px;
   margin: 10px auto;
+  overflow-y: scroll;
 }
 
 .tasks__header {
@@ -60,10 +61,12 @@
     margin-left: auto;
     background: linear-gradient(var(--secondary-color), var(--primary-color));
     margin-top: 0px;
+    position: relative;
   }
 
   .tasks__header {
     justify-content: space-between;
+    position: relative;
   }
 
   .tasks__button {
