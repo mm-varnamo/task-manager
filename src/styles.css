@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #800080;
+  --secondary-color: #0000ff7e;
+  --text-color: #fff;
+  --btn-color: #8080809b;
+  --background-color: #000000f1;
+}
 
 * {
   margin: 0;
@@ -12,7 +19,7 @@ html {
 }
 
 body {
-  background-color: #000000f1;
+  background-color: var(--background-color);
   padding: 1rem;
   font-size: 1.5rem;
 }
