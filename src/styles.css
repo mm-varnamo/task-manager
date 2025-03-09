@@ -3,7 +3,7 @@
   --primary-color: #800080;
   --secondary-color: #0000ff7e;
   --text-color: #fff;
-  --btn-color: #8080809b;
+  --btn-color: #585858;
   --background-color: #000000f1;
 }
 
@@ -22,4 +22,13 @@ body {
   background-color: var(--background-color);
   padding: 1rem;
   font-size: 1.5rem;
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+button {
+  cursor: pointer;
 }
