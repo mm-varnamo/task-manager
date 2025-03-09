@@ -1,0 +1,61 @@
+.new-task__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-color);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-task__dialog {
+  z-index: 2;
+  padding: 2rem;
+  border-radius: 5px;
+  min-width: 300px;
+  border: none;
+  background-color: var(--btn-color);
+  color: var(--text-color);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.new-task__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-task__form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-task__buttons {
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+.new-task__buttons button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.new-task__buttons button:not(:last-child) {
+  margin-right: 5px;
+}
+
+.new-task__button--cancel {
+  color: var(--text-color);
+  background-color: #ff0000;
+}
+
+.new-task__button--submit {
+  color: var(--text-color);
+  background-color: #01c001;
+}
