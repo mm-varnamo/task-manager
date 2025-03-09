@@ -2,5 +2,5 @@
     <h2>{{task.title}}</h2>
     <time>{{task.dueDate | date: "fullDate"}}</time>
     <p>{{task.summary}}</p>
-    <p><button (click)="onCompletingTask()">Complete</button></p>
+    <button (click)="onCompletingTask()">Complete</button>
 </article>
