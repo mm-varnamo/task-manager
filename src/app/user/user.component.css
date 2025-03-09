@@ -8,11 +8,13 @@
   min-width: 100%;
   padding: 0.5rem;
   transition: background-color 0.5s;
+  cursor: pointer;
 }
 
-.user__button:hover {
-  cursor: pointer;
-  background-color: #808080cb;
+.user__button:hover,
+.user__button:active,
+.active {
+  background-color: #808080;
 }
 
 .user__image {
