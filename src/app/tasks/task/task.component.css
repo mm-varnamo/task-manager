@@ -1,0 +1,7 @@
+article {
+  margin: 10px 0px;
+}
+
+article:nth-last-child(1) {
+  margin-bottom: 20px;
+}
